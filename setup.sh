@@ -20,4 +20,9 @@ npm_version=$(npm -v)
 echo "Node.js version: $node_version"
 echo "npm version: $npm_version"
 
+# Config Git User
+git config --global user.name "Iz"
+git config --global user.email "israel.landes16@gmail.com"
+
+
 echo "Installation completed successfully!"
